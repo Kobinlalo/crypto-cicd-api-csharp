@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AWS_REGION: eu-north-1
-      EB_APPLICATION_NAME: crypto-cicd-api-csharp-prod
-      EB_ENVIRONMENT_NAME: Crypto-cicd-api-csharp-prod-env
+      EB_APPLICATION_NAME: cryptic-api
+      EB_ENVIRONMENT_NAME: Cryptic-api-env
       EB_S3_KEY: deploy-${{ github.sha }}.zip
 
     steps:
